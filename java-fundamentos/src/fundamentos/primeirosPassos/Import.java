@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.primeirosPassos;
 
 import java.sql.Date;
 

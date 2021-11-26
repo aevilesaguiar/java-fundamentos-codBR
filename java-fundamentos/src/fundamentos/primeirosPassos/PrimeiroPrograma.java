@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.primeirosPassos;
 
 public class PrimeiroPrograma {
 
