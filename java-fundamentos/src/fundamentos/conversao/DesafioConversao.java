@@ -23,7 +23,7 @@ public class DesafioConversao {
 		System.out.println("Media salarial: "+mediasal);
 		
 		
-		
+		scanner.close();
 		
 		
 		
