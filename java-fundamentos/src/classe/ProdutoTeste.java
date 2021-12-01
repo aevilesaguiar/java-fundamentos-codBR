@@ -1,7 +1,5 @@
 package classe;
 
-import java.util.Scanner;
-
 public class ProdutoTeste  {
 	public static void main(String[] args) {
 		
@@ -21,11 +19,22 @@ public class ProdutoTeste  {
 		System.out.println(p2.nome);
 		
 		
-		double precoFinal1=p1.preco*(1-p1.desconto);
-		double precoFinal2=p2.preco*(1-p2.desconto);
+		double precoFinal1=p1.PrecoComDesconto(0.1);
+		double precoFinal2=p2.PrecoComDesconto();
+		
+	
+		
+		System.out.println("Desconto Normal Preço1:"+ precoFinal1);
+	
+		
+		
+		System.out.println("Desconto Normal Preço2:"+ precoFinal2);
+		
 		
 		double mediaCarrinho=(precoFinal1+precoFinal2)/2;
-		System.out.println("Media do carrinho= R$ "+mediaCarrinho);
+		System.out.println("Media do carrinho preço normal= R$ "+mediaCarrinho);
+
+		
 		
 		
 	}

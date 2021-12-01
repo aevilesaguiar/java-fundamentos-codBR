@@ -8,6 +8,9 @@ public class Data {
 	
 	
 	
-	
+	String obterDataFormatada() {
+		return  String.format(dia+"/"+mes+"/"+ano);
+			
+	}
 	
 }
