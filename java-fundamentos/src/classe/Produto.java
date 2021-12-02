@@ -4,7 +4,27 @@ public class Produto {
 	
 	String nome;
 	double preco;
-	double desconto;
+	static double desconto=0.25;
+	
+	
+	
+	//construtor=metodo especial
+	
+	//3 formas de construir um construtor
+	Produto(){
+		
+	}
+	Produto(String nomeInicial){
+		nome =nomeInicial;
+	}
+	
+	Produto(String nomeInicial, double precoInicial){
+		
+		nome = nomeInicial;
+		preco = precoInicial;
+
+	}
+	
 	
 	
 	//não preciso receber parametros, pois os atributos já estão na Classe
@@ -19,11 +39,12 @@ public class Produto {
 	}
 	
 	
-double PrecoComDesconto( ) {
+ static double Produto( double precoInicial) {
 		
-		
-		return (preco*(1-(desconto)));
+		return (precoInicial*(1-(desconto)));
 	
 	
 	}
+ 
+
 }
