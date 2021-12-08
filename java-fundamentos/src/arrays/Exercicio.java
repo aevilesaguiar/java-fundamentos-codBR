@@ -2,8 +2,6 @@ package arrays;
 
 import java.util.Arrays;
 
-import fundamentos.primeirosPassos.Main;
-
 public class Exercicio {
 	
 	public static void main(String[] args) {
