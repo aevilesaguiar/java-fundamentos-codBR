@@ -1,6 +1,5 @@
 package colecoes;
 
-import java.security.KeyStore.Entry;
 import java.util.HashMap;
 
 public class Mapa {
